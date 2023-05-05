@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Montserrat:wght@100&family=Noto+Sans:ital,wght@1,300&family=Open+Sans&family=Yeseva+One&display=swap');
+*{   
+   box-sizing:border-box;
+   font-family: 'Alkatra', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Yeseva One', cursive;
+}
+#welcome{
+   position: absolute;
+    background: linear-gradient(#ff70e0 0%, #870ee9 100%);
+    display: table;
+    width: 100%;
+    height: 100%; 
+}
+#wiki
+{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 50px;
+   color: white;
+}
+h2
+{
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+   font: size 40px;;
+}
+#menu
+{
+   list-style: none;
+   padding: 0;
+   background-color: rgb(0, 0, 0) ;
+}
+#menu li
+{
+   display: inline;
+  position: relative;
+}
+#menu li a
+{
+   display: inline;
+   text-decoration: none;
+   padding: 17px;
+   display:inline-block;
+   color:rgb(185, 31, 206);
+   transition:Background .6s;
+}
+#menu li a:hover
+{
+   Background-color:rgb(255, 0, 191);
+   color: black; 
+}
+
+main
+{
+   background: url(bg;jpg) no-repeat center center;
+   background-size: cover;
+   height: 92px;
+}
+@media (max-width: 999px){
+   nav-list{
+      position:absolute;
+      top: 8vh;
+      right: 0;
+      width: 50vw;
+      height: 92vh;
+      background: rgb(0, 0, 0)  ;
+
+   }
+}
+#mas-oq
+{
+   font-size: 30px;
+    color: rgb(0, 0, 0) !important;
+}
+.line
+{
+   height: 6px;
+    background-color: #000;
+    width: 512px;
+    margin: 3px auto;
+}
+#Significado
+{
+   font-size: 30px;
+   color: rgb(0, 0, 0) !important;
+}  
+.line1
+{
+   height: 6px;
+    background-color: #000;
+    width: 512px;
+    margin: 3px auto;
+}
+.fala
+{
+   font-family: Arial;
+}
+h1.sejabemvindo
+{
+  font-size: 30px;
+}
+#livr
+{
+   font-size: 30px;
+   color: rgb(0, 0, 0) !important;
+}
+.line1
+{
+   height: 6px;
+    background-color: #000;
+    width: 100px;
+    margin: 3px auto;
+}
+.line2
+{
+   height: 6px;
+    background-color: #000;
+    width: 400px;
+    margin: 3px auto;
+}
+#entrevist
+{
+   font-size: 30px;
+   color: rgb(0, 0, 0) !important;
+}
+#gmail
+{
+   width: 30px;
+   height: 30px;
+}
+.fala
+{
+   text-align: justify;
+   font-size: 20px;
+}
+#Entrevista
+{
+   width: 500px;
+   height: 600px;
+}
+#entrevista iframe
+{
+    width: 100%;
+}
+#sob-livro
+{
+   text-align: justify;
+   font-size: 20px;
+   font-family: Arial;
+}
+#questions
+{
+   font-size: 30px;
+   color: rgb(0, 0, 0) !important;
+}
+h2{
+   color: black;
+}
+#welcome1
+{
+   position: absolute;
+    background: linear-gradient(#000000 0%, #171518 100%);
+    display: table;
+    width: 100%;
+   
+    height: 100%;
+}
+#contacts
+{
+   font-size: 30px;
+   color: white;
+}
+.line3
+{
+   height: 6px;
+    background-color: #ffffff;
+    width: 200px;
+    margin: 3px auto;
+}
+#instagram
+{
+   width: 30px;
+   height: 30px;
+}
+h3{
+   font-size: 30px;
+}
+#contact iframe
+{
+    width: 100%;
+}
+nav {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+   background: #23232e;
+   height: 8vh;
+ }
+ 
+ main {
+   background: url("bg.jpg") no-repeat center center;
+   background-size: cover;
+   height: 92vh;
+ }
+ 
+ .nav-list {
+   list-style: none;
+   display: flex;
+ }
+ 
+ .nav-list li {
+   letter-spacing: 3px;
+   margin-left: 32px;
+ }
+ 
+ .mobile-menu {
+   display: none;
+   cursor: pointer;
+ }
+ 
+ .mobile-menu div {
+   width: 32px;
+   height: 2px;
+   background: #fff;
+   margin: 8px;
+   transition: 0.3s;
+ }
+ 
+ @media (max-width: 999px) {
+   body {
+     overflow-x: hidden;
+   }
+   .nav-list {
+     position: absolute;
+     top: 8vh;
+     right: 0;
+     width: 50vw;
+     height: 92vh;
+     background: #23232e;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+     transform: translateX(100%);
+     transition: transform 0.3s ease-in;
+   }
+   .nav-list li {
+     margin-left: 0;
+     opacity: 0;
+   }
+   .mobile-menu {
+     display: block;
+   }
+ }
+ 
+ .nav-list.active {
+   transform: translateX(0);
+ }
+ 
+ @keyframes navLinkFade {
+   from {
+     opacity: 0;
+     transform: translateX(50px);
+   }
+   to {
+     opacity: 1;
+     transform: translateX(0);
+   }
+ }
+ 
+ .mobile-menu.active .line1 {
+   transform: rotate(-45deg) translate(-8px, 8px);
+ }
+ 
+ .mobile-menu.active .line2 {
+   opacity: 0;
+ }
+ 
+ .mobile-menu.active .line3 {
+   transform: rotate(45deg) translate(-5px, -7px);
+ }
+ #livro-palavra
+ {
+   font-size: 30px;
+ }
+ h5
+ {
+   font-size: 30px;  
+ }
+#apresentacao
+{
+   font-size: 20px;
+}
+#justifica-vitor
+{
+   text-align: justify;
+}
+#Entrevista
+{
+   height:300px;
+    width:200px;
+}
